@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УютКафе</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Кафе<span>Уют</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Кафе Уют</h1>
+                <p class="hero__subtitle">Уютное пространство</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Позиции</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images/img2.jpg" alt="">
+                        <img src="images/img3.jpg" alt="">
+                        <img src="images/img4.avif" alt="">
+
+
+
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О нас</h2>
+                        <p class="about__text">Место с авторской кухней, поздними завтраками и сытным бизнес-ланчем.</p>
+                        <p class="about__text">Здесь приятно проводить время и в большой компании и в романтичном уединении.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Уютная атмосфера</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Проведение вашего праздника</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Аниматоры для детей</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Позиции</h2>
+                <div class="menu__content active" id="menu">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Салат Цезарь</h3>
+                                <span class="menu-item__price">590Руб.</span>
+                            </div>
+                            <p class="menu-item__description">Овощной салат с нежной куриной грудкой.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Бургер с говядиной</h3>
+                                <span class="menu-item__price">380Руб.</span>
+                            </div>
+                            <p class="menu-item__description">сэндвич, состоящий из говяжьей котлеты, обжаренной на гриле, и помещенной между двумя половинками булочки.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Омлет с ветчиной и сыром</h3>
+                                <span class="menu-item__price">300Руб.</span>
+                            </div>
+                            <p class="menu-item__description">Нежные взбитые яйца, обжаренные с ветчиной и сыром.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Греческий салат</h3>
+                                <span class="menu-item__price">350Руб.</span>
+                            </div>
+                            <p class="menu-item__description">Свежие овощи, сыр фета, оливки, заправка на основе оливкового масла.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Рыба на гриле с лимоном</h3>
+                                <span class="menu-item__price">550Руб.</span>
+                            </div>
+                            <p class="menu-item__description">Свежая рыба, приготовленная на гриле с добавлением лимона.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Сырники со сметаной</h3>
+                                <span class="menu-item__price">250Руб.</span>
+                            </div>
+                            <p class="menu-item__description">Домашние сырники, подаются со сметаной.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Отличное место.</p>
+                        <div class="review__author">
+                            <img src="images/ж2.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Мария</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Лучшее заведение города.</p>
+                        <div class="review__author">
+                            <img src="images/м.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Максим</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Самое хорошее место для проведения детского дня рождения.</p>
+                        <div class="review__author">
+                            <img src="images/ж.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Ольга</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>Город Удачный, мкр.Новый город, дом 6 корпус 2</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7(924)578-78-87</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>УютКафе@mail.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Ежедневно 9:00 - 23:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1596.605542788731!2d112.24567967700283!3d66.41119442546206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5b7e653daf0966af%3A0xa612f902282cc4d0!2zNiDQutC-0YDQv9GD0YEgMiwg0KPQtNCw0YfQvdGL0LksINCg0LXRgdC_LiDQodCw0YXQsCAo0K_QutGD0YLQuNGPKSwgNjc4MTg4!5e0!3m2!1sru!2sru!4v1752468151005!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Кафе<span>Уют</span></a>
+                    <p class="footer__text">Уютное пространство</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
